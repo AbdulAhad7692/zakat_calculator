@@ -1,0 +1,134 @@
+.bg {
+    background-image: url(sirisvisual-b2Cm0AD0QqE-unsplash.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.form {
+    background: rgb(0, 171, 195);
+    background: linear-gradient(326deg, rgba(0, 171, 195, 1) 0%, rgba(0, 73, 160, 1) 100%);
+    border-radius: 30px;
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    margin-top: 90px;
+    box-shadow: 10px 10px 60px black;
+}
+
+.design {
+    margin-left: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+    background-color: #f5f5f5
+}
+
+.design:hover {
+    border-color: rgb(244, 248, 0);
+}
+
+.button {
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    background-color: #5dbcd2;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3697a8;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+
+.form-text {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#top-text {
+    padding-top: 20px;
+}
+
+#final {
+    color: rgb(255, 255, 255);
+    padding-top: px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.amount {
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: #5dbcd2;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount:hover {
+    background-color: #3697a8;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+@media only screen and (max-width:600px) {
+    .bg{
+        background-image: url(fatih-yurur-kNSREmtaGOE-unsplash.jpg);
+        background-size: 600px;
+    }
+    .form {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .bg {
+        background-image: url(asasdas.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .form {
+        background: none;
+        box-shadow: none;
+    }
+
+}
+@media only screen and (max-width:376px) {
+    .design{
+        margin-left: 20px;
+    }
+    
+}
+@media only screen and (max-width:300px) {
+    .form{
+        margin-top: 150px;
+    }
+    
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="bg">
+
+    <div class="form">
+
+        <form action="">
+                
+                <p class="form-text" id="top-text">Enter Cash Input / Money</p>
+                <input type="number" class="design" id="cashInput" />
+                <p class="form-text">Enter Gold Input in Tola</p>
+                <input type="number" class="design" id="goldInput" />
+
+            <p class="form-text">Enter Silver Input in Tola</p>
+            <input type="number" class="design" id="silverInput">
+
+            <div class="button">
+                <button class="btn" type="button" onclick="calculateZakat()">Calculate Zakat</button>
+            </div>
+            <div class="amount">
+                <p id="final"></p>
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
